@@ -176,8 +176,9 @@ export default function SampleAdminPageTemplate() {
             boxSizing: 'border-box',
             padding: '18px 20px',
             borderRadius: 10,
-            border: `1px solid ${cssVar('border/yellow-weak-a')}`,
-            background: cssVar('surface/display-yellow-weak-a'),
+            // 경고가 아니라 참고 사항이라, 눈에 띄는 색 대신 한 단계 낮춘 바탕을 씁니다.
+            border: `1px solid ${cssVar('border/default-a')}`,
+            background: cssVar('bg/grouped-strong'),
           }}
         >
           <h2 style={{ ...textStyle('14/title/med'), margin: '0 0 8px' }}>
