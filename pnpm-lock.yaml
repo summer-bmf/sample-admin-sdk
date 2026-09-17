@@ -9,17 +9,17 @@ importers:
   .:
     dependencies:
       '@bstage-sdk/cli':
-        specifier: 0.3.0
-        version: 0.3.0(@types/node@24.13.4)
+        specifier: 0.4.1
+        version: 0.4.1(@types/node@24.13.4)
       '@bstage-sdk/core':
-        specifier: 0.3.0
-        version: 0.3.0
+        specifier: 0.4.1
+        version: 0.4.1
       '@bstage-sdk/design':
-        specifier: 0.3.0
-        version: 0.3.0
+        specifier: 0.4.0
+        version: 0.4.0
       '@bstage-sdk/react':
-        specifier: 0.3.0
-        version: 0.3.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+        specifier: 0.4.1
+        version: 0.4.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       react:
         specifier: ^19.2.0
         version: 19.3.0
@@ -152,18 +152,18 @@ packages:
     resolution: {integrity: sha512-Vj1jF3cPfxg7OAfoI7QnVKLoILlm2JF9pnVHrX8qx7AHMiYWT+NDAA7jChlNgRS4WTLc/fD1lXLmPixluj+3Gg==}
     engines: {node: '>=6.9.0'}
 
-  '@bstage-sdk/cli@0.3.0':
-    resolution: {integrity: sha512-NaUAL/yM7jPqYm8dJj1qm+8VdUqLLNn1P59EpMcA2lzL5sONNocjcCBYmvN4uTqdrT52gJOaPvllf//VbcJxNA==}
+  '@bstage-sdk/cli@0.4.1':
+    resolution: {integrity: sha512-NUABLsztEn6Yzh3yLjki+mGRR9uzfBFPW3LixBRLbUOezjQvkpdGRciIwDtSZTekb2XBcQnzA5HTlB5HiQyjSQ==}
     hasBin: true
 
-  '@bstage-sdk/core@0.3.0':
-    resolution: {integrity: sha512-lZpCykgM505d7SJapwhF+N138Wp8g/6zWaOAkfDx4BcKQ3PLiF92bh5/sZ+1gPOhJUUhd+Dra52dWsw8OeRVNw==}
+  '@bstage-sdk/core@0.4.1':
+    resolution: {integrity: sha512-z9EP+0pB0k68qGv2wRDoCUGQk2wZrFMzeVN6hd2GkhxuKCl7/EFCHFKwO3Mel7LHv65D2b2RQYB07wi/WuvMJA==}
 
-  '@bstage-sdk/design@0.3.0':
-    resolution: {integrity: sha512-2emMQhyRNOlt3ggn+qgV2x2oqy1N1CenB1uMbsFMFfTxZ+4fLIoKcNGnMoRy/AJbikoLK/X8qcY0Us2NvKLi1A==}
+  '@bstage-sdk/design@0.4.0':
+    resolution: {integrity: sha512-4+aHT4+xzNb9iWRtx3bdDPsNggcoUS7x4cF+yCifrCn8rxnTZM6mAtDvQFiFozbdrG4IYhYjsBB1fNQyAeIe4Q==}
 
-  '@bstage-sdk/react@0.3.0':
-    resolution: {integrity: sha512-7p8iO58NYELZB4WiRgP7RYZOrXIfw8eluAGZbm0kvM49NU48mxKu6okwD1YLxY4PPFevwKX6IMuvwFEVmXyiAw==}
+  '@bstage-sdk/react@0.4.1':
+    resolution: {integrity: sha512-GCn4ycYm4mPTV3f6xt1glyjjWscIVjrht5ngOdwDQ2ET90eJcKonCAMqolPTlKMaHoT2c/QBN23RxGP9ikJMvw==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
@@ -1300,9 +1300,9 @@ snapshots:
       '@babel/helper-string-parser': 7.29.7
       '@babel/helper-validator-identifier': 7.29.7
 
-  '@bstage-sdk/cli@0.3.0(@types/node@24.13.4)':
+  '@bstage-sdk/cli@0.4.1(@types/node@24.13.4)':
     dependencies:
-      '@bstage-sdk/core': 0.3.0
+      '@bstage-sdk/core': 0.4.1
       '@clack/prompts': 1.8.1
       '@vitejs/plugin-react': 5.2.0(vite@7.3.6(@types/node@24.13.4))
       commander: 12.1.0
@@ -1322,13 +1322,13 @@ snapshots:
       - tsx
       - yaml
 
-  '@bstage-sdk/core@0.3.0': {}
+  '@bstage-sdk/core@0.4.1': {}
 
-  '@bstage-sdk/design@0.3.0': {}
+  '@bstage-sdk/design@0.4.0': {}
 
-  '@bstage-sdk/react@0.3.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0)':
+  '@bstage-sdk/react@0.4.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0)':
     dependencies:
-      '@bstage-sdk/core': 0.3.0
+      '@bstage-sdk/core': 0.4.1
       react: 19.3.0
       react-dom: 19.3.0(react@19.3.0)
 
